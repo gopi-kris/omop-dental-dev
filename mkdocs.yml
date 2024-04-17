@@ -2,15 +2,17 @@ site_name: OMOP Dental Dev
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.section
-    - navigation.top
-    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.indexes
+    - navigation.path
+    - navigation.instant
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - toc.follow
+  logo: img/OHDSI_black.png
+  favicon: img/favicon.ico
   language: en
   palette:
     - scheme: default
@@ -25,6 +27,17 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: True
+  - attr_list
 extra:
   social:
     - icon: fontawesome/brands/html5
@@ -33,3 +46,8 @@ extra:
       link: https://www.linkedin.com/company/ohdsi/posts/
     - icon: fontawesome/brands/github-alt
       link: https://github.com/gopi-kris/omop-dental-dev
+nav:
+  - Home: index.md
+  - Getting started:
+      - Learn fundamentals: learn.md
+  - About: about.md
