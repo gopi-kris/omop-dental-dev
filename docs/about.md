@@ -18,7 +18,7 @@
 
 ![Image title](https://placehold.co/150){ align=left }
 
-!!! note "Daniel"
+!!! note "Danielle"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
