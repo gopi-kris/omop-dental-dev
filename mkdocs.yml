@@ -1,0 +1,35 @@
+site_name: OMOP Dental Dev
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.section
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+extra:
+  social:
+    - icon: fontawesome/brands/html5
+      link: https://www.ohdsi.org/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ohdsi/posts/
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/gopi-kris/omop-dental-dev
